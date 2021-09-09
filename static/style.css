@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: hotpink;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.box0 {
+    height: 30px;
+    width: 30px;
+    background-color: hotpink;
+    border: 1px solid black;
+    display: inline;
+}
+
+.box1 {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border: 1px solid hotpink;
+    display: inline;
+}

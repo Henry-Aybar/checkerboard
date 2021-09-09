@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/style.css') }}">
+    <title>Checkerboard</title>
+</head>
+<body>
+    <h1>** Checkerboard **</h1>
+    {% for row in result %}
+    <div class="row">
+        {% for box in row %}
+        <div class="box{{box}}">
+            <!-- {{ box }} -->
+        </div>
+
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+</body>
+</html>
